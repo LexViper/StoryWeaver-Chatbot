@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Story Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Story Weaver</h1>
+    <p>In {{ theme }}, {{ character }} continues with a {{ mood }} mood.</p>
+    <p>Current story segment:</p>
+    <div class="story">{{ story }}</div>
+    <p>What's next?</p>
+    <form method="post">
+        {% for choice in choices %}
+        <input type="radio" id="choice{{ loop.index }}" name="choice" value="{{ loop.index }}" required>
+        <label for="choice{{ loop.index }}">{{ loop.index }}: {{ choice }}</label><br>
+        {% endfor %}
+        <br>
+        <input type="submit" value="Continue Story">
+    </form>
+    <a href="/save_story">Save Full Story</a>
+    <a href="/">Start a New Story</a>
+</body>
+</html>

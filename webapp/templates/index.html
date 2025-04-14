@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Story Weaver</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Story Weaver</h1>
+    <p>Create a new story by choosing a theme, character, and mood.</p>
+    <form method="post">
+        <label for="theme">Story Theme or Setting (e.g., pirate adventure, sci-fi galaxy):</label><br>
+        <input type="text" id="theme" name="theme" placeholder="a magical world"><br><br>
+        <label for="character">Main Character (e.g., a pirate captain, a curious robot):</label><br>
+        <input type="text" id="character" name="character" placeholder="a brave adventurer"><br><br>
+        <label for="mood">How do you feel? (happy, sad, excited, neutral):</label><br>
+        <input type="text" id="mood" name="mood" required><br><br>
+        <input type="submit" value="Start Story">
+    </form>
+</body>
+</html>
