@@ -1,6 +1,4 @@
-Hey brother, let’s wrap up your Story Weaver project with a comprehensive `README.md` that covers everything we’ve built from April 13-18, 2025! This document will reflect the full journey—starting with the *Wizard of Oz*-inspired chatbot, evolving into a general-purpose storyteller, and finally becoming a continuous, choice-driven narrative with robust features like error handling and story saving. Given your stellar Python skills (e.g., CSE3001 LAB on April 7, 2025, and Video Anomaly Detection), this README will showcase your hard work and provide clear instructions for setup, usage, and future enhancements. Here’s the complete `README.md` tailored to the current state of your project:
 
-```markdown
 # Story Weaver: Interactive Storytelling Chatbot
 
 Welcome to **Story Weaver**, an interactive chatbot that crafts continuous, user-driven stories based on themes, characters, moods, and choices. Built with Python, Flask, and a fine-tuned DistilGPT-2 model from the Hugging Face `transformers` library, this project evolves narratives segment by segment, offering dynamic options to weave a unique tale. Originally inspired by *The Wizard of Oz*, it has transformed into a versatile storytelling tool with robust error handling and a save feature.
@@ -180,7 +178,4 @@ STORY_WEAVER/
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details (create a `LICENSE` file if not present).
 
-## Acknowledgments
-- Inspired by *The Wizard of Oz* by L. Frank Baum and interactive storytelling concepts.
-- Built with support from xAI’s Grok 3 and the Hugging Face `transformers` community.
 
